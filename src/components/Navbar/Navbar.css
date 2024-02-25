@@ -33,7 +33,6 @@
     display: none;
   }
   .mobile-menu {
-    
     display: block;
     cursor: pointer;
   }
@@ -46,6 +45,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    
   }
 
   .mobile-nav-list li {
