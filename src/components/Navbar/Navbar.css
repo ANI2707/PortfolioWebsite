@@ -1,0 +1,30 @@
+.navbar {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem 1rem; /* Use rem units for better responsiveness */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Use a lighter shadow color */
+    background-color: white; /* Add a background color to improve contrast */
+  }
+  
+.nav-list {
+  list-style-type: none;
+  padding: 0;
+}
+
+.nav-list li {
+  display: inline-block;
+  margin-right: 50px; /* Adjust the value to set the desired space */
+}
+
+.nav-list li:last-child {
+  margin-right: 0; /* Remove margin from the last element to avoid extra space */
+}
+
+
+@media (max-width:575px) {
+  .navbar{
+    display: none;
+  }
+}
