@@ -2,7 +2,6 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 100%;
   height: 500px;
   gap: 20rem;
 }
@@ -73,5 +72,11 @@
 }
 
 @media (max-width: 768px) {
+  .hero{
+    flex-direction: column;
+    align-items: center;
+    gap: 10rem;
+    margin-top: 300px;
 
+  }
 }

@@ -1,6 +1,7 @@
 import React from "react";
 import "./Hero.css";
 import homeLogo from "../../assets/hero.svg";
+
 import { ReactTyped } from "react-typed";
 import { SiGithub } from "react-icons/si";
 
@@ -15,7 +16,7 @@ import { RiTwitterXLine } from "react-icons/ri";
 
 const Hero = () => {
   return (
-    <section className="hero">
+    <div className="hero">
       <div className="hero-left">
         <div style={{ paddingBottom: 15 }} className="heading">
           Hi There!{" "}
@@ -47,7 +48,7 @@ const Hero = () => {
       <div className="hero-right">
         <img src={homeLogo} alt="Banner-img" className="banner-image" />
       </div>
-    </section>
+    </div>
   );
 };
 
