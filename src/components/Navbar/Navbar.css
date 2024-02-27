@@ -1,15 +1,11 @@
 .navbar {
   display: flex;
-  flex-direction: row;
   justify-content: center;
   align-items: center;
   padding: 1rem 1rem; /* Use rem units for better responsiveness */
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Use a lighter shadow color */
-  
   background-color: white; /* Add a background color to improve contrast */
 }
-
-
 .nav-list {
   list-style-type: none;
   padding: 0;
@@ -26,11 +22,11 @@
 .mobile-menu {
   display: none;
 }
-.mobile-nav-list{
+.mobile-nav-list {
   display: none;
 }
 
-@media (max-width: 616px) {
+@media (max-width: 619px) {
   nav .nav-list {
     display: none;
   }
@@ -52,7 +48,6 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    
   }
 
   .mobile-nav-list li {

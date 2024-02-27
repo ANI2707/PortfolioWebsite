@@ -31,7 +31,11 @@ const Navbar = () => {
 
         {/* Mobile view icon */}
         <div className="mobile-menu" onClick={() => setShowNav(!showNav)}>
-          {showNav ? <MdOutlineClose style={{ fontSize: "1.5rem" }}/> : <HiOutlineMenu style={{ fontSize: "1.5rem" }}/>}
+          {showNav ? (
+            <MdOutlineClose style={{ fontSize: "1.5rem" }} />
+          ) : (
+            <HiOutlineMenu style={{ fontSize: "1.5rem" }} />
+          )}
         </div>
       </nav>
       {/* Mobile view navigation */}
