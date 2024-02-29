@@ -38,12 +38,39 @@ const Hero = () => {
           />
         </div>
         <div className="social-icons">
-          <SiGithub style={{ fontSize: "2rem", cursor: "pointer" }} />
-          <TbBrandLeetcode style={{ fontSize: "2rem", cursor: "pointer" }} />
-          <CiLinkedin style={{ fontSize: "2rem", cursor: "pointer" }} />
-          <CiInstagram style={{ fontSize: "2rem", cursor: "pointer" }} />
-          <RiTwitterXLine style={{ fontSize: "2rem", cursor: "pointer" }} />
-          <GoDownload style={{ fontSize: "2rem", cursor: "pointer" }} />
+          <a href="https://github.com/ANI2707" target="_blank">
+            <SiGithub style={{ fontSize: "2rem", cursor: "pointer" }} />
+          </a>
+          <a href="https://leetcode.com/Aniket_Bhosale/" target="_blank">
+            <TbBrandLeetcode style={{ fontSize: "2rem", cursor: "pointer" }} />
+          </a>
+
+          <a
+            href="https://www.linkedin.com/in/aniket-bhosale-217a7a223/"
+            target="_blank"
+          >
+            <CiLinkedin style={{ fontSize: "2rem", cursor: "pointer" }} />
+          </a>
+
+          <a
+            href="https://twitter.com/AniketB82544141"
+            target="_blank"
+          >
+            <RiTwitterXLine style={{ fontSize: "2rem", cursor: "pointer" }} />
+          </a>
+          <a
+            href="https://www.instagram.com/aniket.bhosale_"
+            target="_blank"
+          >
+            <CiInstagram style={{ fontSize: "2rem", cursor: "pointer" }} />
+          </a>
+          <a
+            href="https://drive.google.com/file/d/1Mx6lPk2oQSlwi64xhZDOoWbX_Ic1R5rO/view"
+            target="_blank"
+          >
+            {" "}
+            <GoDownload style={{ fontSize: "2rem", cursor: "pointer" }} />
+          </a>
         </div>
       </div>
       <div className="hero-right">

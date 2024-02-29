@@ -15,6 +15,7 @@ const Footer = () => {
         <span>Copyright © 2024 Aniket</span>
       </div>
       <div className='footer-social-icons'>
+        
         <CiLinkedin/>
         <SiGithub/>
         <RiTwitterXLine/>

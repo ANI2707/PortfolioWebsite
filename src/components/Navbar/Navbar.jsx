@@ -2,7 +2,7 @@ import { useState } from "react";
 import "./Navbar.css";
 import { HiOutlineMenu } from "react-icons/hi";
 import { MdOutlineClose } from "react-icons/md";
-
+import { Link } from "react-router-dom";
 const Navbar = () => {
   const [showNav, setShowNav] = useState(false);
 
@@ -13,22 +13,25 @@ const Navbar = () => {
 
         <ul className="nav-list">
           <li>
-            <a href="#">Home</a>
+            <Link to="/">Home</Link>
           </li>
           <li>
-            <a href="#">About</a>
+            <Link to="/about">About</Link>
+          </li>
+
+          <li>
+            <Link to="/experience">Experience</Link>
           </li>
           <li>
-            <a href="#">Experience</a>
+            <Link to="/projects">Projects</Link>
           </li>
           <li>
-            <a href="#">Projects</a>
+            <Link to="/articles">Articles</Link>
           </li>
+
           <li>
-            <a href="#">Articles</a>
-          </li>
-          <li>
-            <button>Resume</button>
+            <a href="https://drive.google.com/file/d/1Mx6lPk2oQSlwi64xhZDOoWbX_Ic1R5rO/view?usp=sharing" target="_blank"><button >Resume</button></a>
+            
           </li>
         </ul>
 
@@ -45,22 +48,24 @@ const Navbar = () => {
       {showNav && (
         <ul className="mobile-nav-list">
           <li>
-            <a href="#">Home</a>
+            <Link to="/">Home</Link>
           </li>
           <li>
-            <a href="#">About</a>
+            <Link to="/about">About</Link>
+          </li>
+
+          <li>
+            <Link to="/experience">Experience</Link>
           </li>
           <li>
-            <a href="#">Experience</a>
+            <Link to="/projects">Projects</Link>
           </li>
           <li>
-            <a href="#">Projects</a>
+            <Link to="/articles">Articles</Link>
           </li>
           <li>
-            <a href="#">Articles</a>
-          </li>
-          <li>
-            <button>Resume</button>
+            <a href="https://drive.google.com/file/d/1Mx6lPk2oQSlwi64xhZDOoWbX_Ic1R5rO/view?usp=sharing" target="_blank"><button >Resume</button></a>
+            
           </li>
         </ul>
       )}
