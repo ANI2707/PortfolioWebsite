@@ -59,7 +59,7 @@ const Hero = () => {
             <RiTwitterXLine style={{ fontSize: "2rem", cursor: "pointer" }} />
           </a>
           <a
-            href="https://www.instagram.com/aniket.bhosale_"
+            href="#"
             target="_blank"
           >
             <CiInstagram style={{ fontSize: "2rem", cursor: "pointer" }} />
