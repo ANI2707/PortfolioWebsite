@@ -5,8 +5,6 @@
   padding: 1rem 1rem; /* Use rem units for better responsiveness */
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Use a lighter shadow color */
   background-color: white; /* Add a background color to improve contrast */
-
-
 }
 .nav-list {
   list-style-type: none;
