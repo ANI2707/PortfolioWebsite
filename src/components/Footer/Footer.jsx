@@ -3,6 +3,7 @@ import './Footer.css';
 import { FaRegHeart } from "react-icons/fa";
 import { CiLinkedin } from "react-icons/ci";
 import { SiGithub } from "react-icons/si";
+import { RiTwitterXLine } from "react-icons/ri";
 
 const Footer = () => {
   return (
@@ -16,6 +17,7 @@ const Footer = () => {
       <div className='footer-social-icons'>
         <CiLinkedin/>
         <SiGithub/>
+        <RiTwitterXLine/>
 
       </div>
     </div>

@@ -3,7 +3,7 @@
     justify-content: space-around;
     align-items: center;
     height: 50px;
-    background-color: #3a3a3a;
+    background-color: #000000;
     color: white;
 
 }
@@ -11,18 +11,24 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: 30px;
+    font-size: 28px;
     gap: 1rem;
 }
 
 @media (max-width:619px) {
-    .footer-middle{
-        display: none;
-    }
-    .footer-social-icons{
-        display: none;
+    .footer{
+        padding: 10px;
+        height: 100px;
+        flex-direction: column;
     }
     .footer-left{
-        font-size: 10px;
+        font-size: 15px;
+    }
+    .footer-middle{
+        font-size: 15px;
+
+    }
+    .footer-social-icons{
+        font-size: 23px;
     }
 }

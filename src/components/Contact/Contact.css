@@ -67,7 +67,7 @@ input[type="email"]:focus {
   .main {
     height: 800px;
     flex-direction: column;
-    gap: 20px;
+    gap: 25px;
   }
   .contact-img {
     margin-right: 30px;
@@ -75,10 +75,13 @@ input[type="email"]:focus {
     height: 300px;
   }
   .content-right{
-    margin-bottom: 200px;
+    margin-bottom: 170px;
   }
 
   .content-left{
     margin-top: 200px;
+  }
+  .contact-form-header {
+    font-size: 30px;
   }
 }
