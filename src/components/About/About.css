@@ -1,0 +1,28 @@
+/* About section */
+.about{
+    margin: 6rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; 
+
+}
+.about-img{
+    height: 10rem;
+    width: 10rem;
+    border-radius: 50%;
+    background-color: aqua;
+}
+.about-info{
+    margin-top: 2rem;
+    text-align: center;
+}
+
+/* Education section */
+.education{
+    margin-top: 5rem;
+}
+.education-header{
+    font-size: 2rem;
+
+}

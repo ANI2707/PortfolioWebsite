@@ -63,7 +63,7 @@ input[type="email"]:focus {
   margin-bottom: 10px; /* Add margin below labels for spacing */
 }
 
-@media (max-width: 619px) {
+@media (max-width: 619px ) {
   .main {
     height: 800px;
     flex-direction: column;
@@ -84,4 +84,28 @@ input[type="email"]:focus {
   .contact-form-header {
     font-size: 30px;
   }
+}
+@media (max-width: 1200px) {
+  .main {
+    height: 800px;
+    flex-direction: column;
+    gap: 25px;
+  }
+  .contact-img {
+    margin-right: 30px;
+    width: 300px;
+    height: 300px;
+  }
+  .content-right{
+    margin-bottom: 170px;
+  }
+
+  .content-left{
+    margin-top: 200px;
+  }
+  .contact-form-header {
+    font-size: 30px;
+  }
+
+  
 }
