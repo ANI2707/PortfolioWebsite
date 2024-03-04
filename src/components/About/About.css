@@ -1,28 +1,75 @@
 /* About section */
-.about{
+.about {
     margin: 6rem;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center; 
+    align-items: center;
 
 }
-.about-img{
+
+.about-img {
     height: 10rem;
     width: 10rem;
     border-radius: 50%;
-    background-color: aqua;
+    overflow: hidden;
 }
-.about-info{
-    margin-top: 2rem;
+
+.about-img img {
+    width: 100%;
+}
+
+.about-info {
+    margin: 2rem 10rem 2rem;
+    
     text-align: center;
 }
 
 /* Education section */
-.education{
+.education {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 5rem;
     margin-top: 5rem;
 }
-.education-header{
+
+.education-header {
     font-size: 2rem;
 
+}
+
+/* Card css */
+/* Card container */
+.card {
+    width: 300px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* Heading */
+.card h2 {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+/* Details */
+.card p {
+    font-size: 16px;
+    color: #666;
+    margin-bottom: 10px;
+}
+
+/* Label */
+.card .label {
+    font-weight: bold;
+}
+
+/* Value */
+.card .value {
+    margin-left: 10px;
 }
