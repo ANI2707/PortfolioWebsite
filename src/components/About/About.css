@@ -73,3 +73,9 @@
 .card .value {
     margin-left: 10px;
 }
+
+/* img */
+.card img{
+    margin: 25px;
+    
+}
