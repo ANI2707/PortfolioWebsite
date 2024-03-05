@@ -1,23 +1,21 @@
 import React from "react";
 import './workCard.css';
-import gfg from "../../assets/work/gfg.png";
-const WorkCard = () => {
+
+
+
+const WorkCard = ({workItem}) => {
   return (
     <>
       <div className="work-card">
         <div className="company-logo">
-          <img src={gfg} alt="Company Logo" />
+          <img src={workItem.image} alt="Company Logo" />
         </div>
         <div className="company-info">
-          <h2>Company Name</h2>
-          <p>Software Engineer</p>
-          <p> January 2020 - Present</p>
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-            Nullam feugiat massa vitae ligula consequat, vel suscipit nisi
-            gravida.
-          </p>
-          <p>skills</p>
+          <h2>{workItem.name}</h2>
+          <p>{workItem.position}</p>
+          <p> {workItem.time}</p>
+          <p>{workItem.description}</p>
+          <p><span className="workCard-skill">Skills :  </span>{workItem.skills}</p>
         </div>
       </div>
     </>

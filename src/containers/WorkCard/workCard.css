@@ -7,16 +7,18 @@
   border-radius: 5px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   width: 60rem;
+  height: auto;
+  gap: 2rem;
 }
 
 .company-logo img {
-  width: 200px; /* Adjust size as needed */
-  height: 200px;
+  width: 150px; /* Adjust size as needed */
+  height: 150px;
+  border-radius: 15px;
   margin-right: 20px;
 }
 
 .company-info {
-  
   flex-grow: 1;
 }
 
@@ -27,6 +29,9 @@
 .company-info p {
   
   margin: 5px 0;
+}
+.workCard-skill{
+  font-weight: 600;
 }
 
 @media (max-width: 400px),(max-width:700px),(max-width:820px) {
