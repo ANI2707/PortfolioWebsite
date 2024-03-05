@@ -1,0 +1,47 @@
+.container {
+  margin: 5rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  height: 500px;
+  gap: 7rem;
+}
+.education-left img{
+  width: 400px;
+  height: 400px;
+}
+.main-name {
+    font-weight: 200;
+  }
+
+.education-right{
+    font-size: 1rem;
+}
+
+.work-experience{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5rem;
+    
+}
+
+
+@media (max-width: 720px) ,(max-width: 821px){
+    .container{
+        flex-wrap: wrap;
+    }
+    .education-left img{
+        width: 300px;
+        height: 300px;
+    }
+    .education-right{
+        text-align: center;
+    }
+    .work-experience{
+        margin-top:10rem;
+    }
+
+}
