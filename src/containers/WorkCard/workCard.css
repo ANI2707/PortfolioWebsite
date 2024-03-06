@@ -5,7 +5,7 @@
   margin-bottom: 20px;
   margin-top: 3rem;
   border-radius: 5px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
   width: 60rem;
   height: auto;
   gap: 2rem;
@@ -14,7 +14,7 @@
 .company-logo img {
   width: 150px; /* Adjust size as needed */
   height: 150px;
-  border-radius: 15px;
+  border-radius: 12px;
   margin-right: 20px;
 }
 
